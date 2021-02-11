@@ -11,7 +11,7 @@ app.set('view engine', 'pug'); //set view engine to pug
 //setup static middleware
 app.use('/static', express.static('public')); //target public folder as '/static'
 
-//function to handle all error logging
+//function to handle error creation and logging
 function errorHandler(status, message) {
   const err = new Error()
   err.message = message;
@@ -61,9 +61,6 @@ app.use((req, res, next) => {
 //global error handler
 app.use((err, req, res, next) => {
   if(err) {
-      //console.log('Global error handler was called');
-
-
     if(err.status === 404) {
       //console.log('404 error handler called');
        res.status(404).render('page-not-found', { err }); //render the error status with the error stack
