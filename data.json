@@ -1,58 +1,58 @@
 {
   "projects": [
     {
-      "id": "0",
+      "id": 0,
       "project_name": "Random Quote Generator",
       "description": "A random quote generator that returns an insightful quote every fifteen seconds, and/or upon request.",
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/random_quote_generator/",
       "github_link": "https://github.com/Hosamov/fsjs-techdegree-project-1",
-      "image_urls": ["./images/quotes_large_1.png", "./images/quotes_large_2.png", "./images/quotes_large_3.png"]
+      "image_urls": ["/static/images/quotes_thumbnail.PNG", "/static/images/quotes_large_1.png", "/static/images/quotes_large_2.png", "/static/images/quotes_large_3.png"]
     },
     {
-      "id": "1",
+      "id": 1,
       "project_name": "Data Pagination & Filtering",
       "description": "Dynamically displays a list of 42 students over multiple pages, using pagination. Also includes a live search function to search through the entire list of students.",
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/data_pagination_filtering/",
-      "gituhub_link": "https://github.com/Hosamov/data-pagination-and-filtering",
-      "image_urls": ["./images/students_large_1.png", "./images/students_large_2.png", "./images/students_large_3.png"]
+      "github_link": "https://github.com/Hosamov/data-pagination-and-filtering",
+      "image_urls": ["/static/images/students_thumbnail.PNG", "/static/images/students_large_1.png", "/static/images/students_large_2.png", "/static/images/students_large_3.png"]
     },
     {
-      "id": "2",
+      "id": 2,
       "project_name": "Interactive JS Form",
       "description": "A customized form with added conditional behavior and interactivity. Includes form validation with helpful error messages.",
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "http://projects.backyarddev.io/interactive_form/",
-      "gituhub_link": "https://github.com/Hosamov/interactive-form",
-      "image_urls": ["./images/conf_large_1.png", "./images/conf_large_2.png", "./images/conf_large_3.png"]
+      "github_link": "https://github.com/Hosamov/interactive-form",
+      "image_urls": ["/static/images/conf_form_thumbnail.PNG", "/static/images/conf_large_1.png", "/static/images/conf_large_2.png", "/static/images/conf_large_3.png"]
     },
     {
-      "id": "3",
+      "id": 3,
       "project_name": "OOP Gameshow App",
       "description": "A browser-based word guessing game, using JavaScript and Object-Oriented Programming to select a random, hidden phrase, which the player tries to guess by clicking letters on an onscreen keyboard. Added functionality includes ability to use physical keyboard to select letters in the phrase.",
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/oop_gameshow_app/",
-      "gituhub_link": "https://github.com/Hosamov/oop-gameshow-app",
-      "image_urls": ["./images/phrase_large_1.png", "./images/phrase_large_2.png", "./images/phrase_large_3.png"]
+      "github_link": "https://github.com/Hosamov/oop-gameshow-app",
+      "image_urls": ["/static/images/phrase_thumbnail.PNG", "/static/images/phrase_large_1.png", "/static/images/phrase_large_2.png", "/static/images/phrase_large_3.png"]
     },
     {
-      "id": "4",
+      "id": 4,
       "project_name": "Startup Employee Directory",
       "description": "Using the Random User Generator API, this app lists 12 randomly generated employees from a fictitous startup company, and dynamically lists their information to the screen. Users have the ability to click the cards to see further information for an employee. Users may also perform a real-time search on the employees list.",
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/startup_employee_directory/",
-      "gituhub_link": "https://github.com/Hosamov/public_api_requests",
-      "image_urls": ["./images/employee_dir_large_1.png","./images/employee_dir_large_2.png","./images/employee_dir_large_3.png"]
+      "github_link": "https://github.com/Hosamov/public_api_requests",
+      "image_urls": ["/static/images/employee_dir_thumbnail.PNG", "/static/images/employee_dir_large_1.png","/static/images/employee_dir_large_2.png","/static/images/employee_dir_large_3.png"]
     },
     {
-      "id": "5",
+      "id": 5,
       "project_name": "The Game of Life",
       "description": "A version of John Conway's Game of Life in the browser. Includes ability to change the game board/grid in real-time and the abilities to randomize and clear the grid.",
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "http://projects.backyarddev.io/game_of_life/",
-      "gituhub_link": "https://github.com/Hosamov/game_of_life",
-      "image_urls": ["./images/life_large_1.png","./images/life_large_2.png"]
+      "github_link": "https://github.com/Hosamov/game_of_life",
+      "image_urls": ["/static/images/life_thumbnail.PNG", "/static/images/life_large_1.png","/static/images/life_large_2.png", "/static/images/life_large_3.png"]
     }
   ]
 }

@@ -1,0 +1,12 @@
+//- extends layout
+
+block content
+  h1= `Server Error`
+  h2= `Error status code: ${err.status} - Server Error`
+  p.error-p= `Oops! It looks like something went wrong on the server...`
+
+  a.home(href=`/`) Return to Homepage
+
+  div.not-found-stack
+
+    pre #{err.stack}
