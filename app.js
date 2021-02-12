@@ -8,45 +8,48 @@ const app = express();
 app.set('views', path.join(__dirname, 'views')); //folder with pug templates
 app.set('view engine', 'pug'); //set view engine to pug
 
-//setup static middleware
-app.use('/static', express.static('public')); //target public folder as '/static'
+//setup static middleware to serve static files in the public folder
+app.use('/static', express.static('public')); 
 
 //function to handle error creation and logging
 function errorHandler(status, message) {
+  //Create a new the error class object
   const err = new Error()
   err.message = message;
   err.status = status;
 
-  //log out the error code, message, and stack in the console
+  //log out the error code, and stack to the console, including message
   console.log('Error status code: ' + err.status);
-  //console.log(err.message);
   console.log(err.stack);
 
   return err;
 }
 
+//index route
 app.get('/', (req, res, next) => {
   res.render('index', { projects });
 });
 
+//about page route
 app.get('/about', (req, res, next) => {
   res.render('about');
 });
 
 //custom error handler for 500 Server error
 app.get('/error', (req, res, next) => {
-  //console.log('Custom error route called');
   const err = errorHandler(500, 'There appears to be a problem with the server.');
   next(err);
 });
 
-app.get('/projects/:id', (req, res, next) => {
-  const projectId = req.params.id;
-  const project = projects.find( ({ id }) => id === +projectId );
+//projects route
+app.get('/projects/:id', (req, res, next) => { //route parameter is :id
+  const projectId = req.params.id; //target route parameter of :id
+  const project = projects.find( ({ id }) => id === +projectId ); //search id within data.json and see if there's a match with what was requested
 
-  if(project) {
+  if(project) { //if all is well, display the correct page for what was requested by the user...
     res.render('project', { project });
   } else {
+    //if the project id doesn't exist, return a 404 error
     const err = errorHandler(404, `It appears the page you requested doesn't exist.`);
     next(err);
   }
