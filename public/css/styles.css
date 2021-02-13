@@ -33,8 +33,7 @@ article {
 }
 
 h1,h2,h3,h4,h5,p{
-  /* font-family: 'Merriweather', serif; /* Changed*/
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Changed */
 }
 
 h5{
@@ -126,7 +125,7 @@ nav a {
 
 /* Added */
 nav a:hover {
-  animation: pulse 3s infinite;
+  animation: pulse 3s;
 }
 
 nav a span {
@@ -336,6 +335,7 @@ nav a span {
   from {font-size: 13px;}
   50% {font-size: 15px;}
   to {font-size: 13px;}
+
 }
 
 @keyframes scaleup {
