@@ -2,6 +2,8 @@ const express = require('express');
 const { projects } = require('./data'); //serve data.json as an object
 const path = require('path'); //path module for setting absolute path in express.static function
 
+let indexRouter = require('./routes/index');  //import the index route in routes/index.js
+
 const app = express();
 
 //view engine Setup
@@ -25,35 +27,7 @@ function errorHandler(status, message) {
   return err;
 }
 
-//index route
-app.get('/', (req, res, next) => {
-  res.render('index', { projects });
-});
-
-//about page route
-app.get('/about', (req, res, next) => {
-  res.render('about');
-});
-
-//custom error handler for 500 Server error
-app.get('/error', (req, res, next) => {
-  const err = errorHandler(500, 'There appears to be a problem with the server.');
-  next(err);
-});
-
-//projects route
-app.get('/projects/:id', (req, res, next) => { //route parameter is :id
-  const projectId = req.params.id; //target route parameter of :id
-  const project = projects.find( ({ id }) => id === +projectId ); //search id within data.json and see if there's a match with what was requested
-
-  if(project) { //if all is well, display the correct page for what was requested by the user...
-    res.render('project', { project });
-  } else {
-    //if the project id doesn't exist, return a 404 error
-    const err = errorHandler(404, `It appears the page you requested doesn't exist.`);
-    next(err);
-  }
-});
+app.use('/', indexRouter); //route to routes/index.js
 
 //404 error handler
 app.use((req, res, next) => {
@@ -77,3 +51,5 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
   console.log('Server running on port 3000...');
 });
+
+module.exports = app; //export the module as 'app'
