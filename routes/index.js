@@ -2,6 +2,20 @@ const express = require('express');
 const router = express.Router();
 const { projects } = require('../data'); //serve data.json as an object
 
+//function to handle error creation and logging
+function errorHandler(status, message) {
+  //Create a new the error class object
+  const err = new Error()
+  err.message = message;
+  err.status = status;
+
+  //log out the error code, and stack to the console, including message
+  console.log('Error status code: ' + err.status);
+  console.log(err.stack);
+
+  return err;
+}
+
 //index route
 router.get('/', (req, res, next) => {
   res.render('index', { projects });

@@ -13,25 +13,20 @@ app.set('view engine', 'pug'); //set view engine to pug
 //setup static middleware to serve static files in the public folder
 app.use('/static', express.static('public'));
 
-//function to handle error creation and logging
-function errorHandler(status, message) {
+app.use('/', indexRouter); //route to routes/index.js
+
+//404 error handler
+app.use((req, res, next) => {
   //Create a new the error class object
   const err = new Error()
-  err.message = message;
-  err.status = status;
+  err.message = `It appears the page you requested doesn't exist.`;
+  err.status = 404;
 
   //log out the error code, and stack to the console, including message
   console.log('Error status code: ' + err.status);
   console.log(err.stack);
 
-  return err;
-}
-
-app.use('/', indexRouter); //route to routes/index.js
-
-//404 error handler
-app.use((req, res, next) => {
-  const err = errorHandler(404, `It appears the page you requested doesn't exist.`);
+  //render the page-not-found template
   res.status(404).render('page-not-found'); //display a generic 404 page without error stack
 });
 
