@@ -21,9 +21,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  /* background: #fefefe; */
-  /* background: #333333; /* Changed color*/
-  background: #eaeaea;
+  background: #eaeaea; /* Changed color*/
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -59,25 +57,6 @@ a {
   text-decoration: none;
 }
 
-/* ERROR PAGE STYLES*/
-
-/* Added */
-.home-button {
-  font-size: 18px;
-  background-color: black;
-  color: white;
-}
-
-/* Added */
-.home-button:hover {
-  background-color: white;
-  color: black;
-}
-
-.error-container {
-  margin-left: 20px;
-}
-
 .wrapper {
   width: 100%;
   min-width: 320px;
@@ -103,7 +82,6 @@ a {
   max-width: 1200px;
   padding: 40px 50px 30px;
   background: #fefefe;
-  border-bottom: 1px solid #eaeaea;
 }
 
 .box h1,
@@ -162,8 +140,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  /* background: #333333; /* Changed*/
-    background: #eaeaea;
+  background: #eaeaea; /* Changed*/
 }
 
 .sidebar-info-box {
@@ -177,7 +154,6 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  /* border: 4px solid #fff; */
   border-bottom: 3px solid #000; /* Added */
 }
 
@@ -270,7 +246,6 @@ nav a span {
   font-size: 125%;
   margin: 0 auto;
   padding-bottom: 40px;
-  /* border-bottom: 1px solid #eaeaea; */ /* Deleted */
 }
 
 .projects-box h5 {
@@ -290,12 +265,11 @@ nav a span {
 .cell img {
   width: 100%;
   min-width: 100px;
-  /* border: 2px solid #000; */
   border-radius: 15px;
   box-shadow: 4px 4px #999; /* changed */
   animation-name: scaledown; /* added */
   animation-duration: 1s; /* added */
-  /* opacity: 75%; /* added */ */
+
 }
 
 /* Addition - on hover, change box shadow & opacity of image in cell class*/
@@ -304,6 +278,25 @@ nav a span {
   animation-duration: 1s;
   transform: scale(1.03);
 }
+
+/* ERROR PAGES STYLES*/
+/* Added */
+.home-button {
+  font-size: 18px;
+  background-color: #000;
+  color: #eaeaea;
+}
+
+/* Added */
+.home-button:hover {
+  background-color: #eaeaea;
+  color: #000;
+}
+
+.error-container {
+  margin-left: 20px;
+}
+
 
 /*
   About and project pages styles
