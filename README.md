@@ -1,2 +1,2 @@
 # static_nodejs_express_site
-A portfolio site using Node and Express to showcase previous projects
+### A portfolio site using Node.js, Express.js, and Pug to showcase projects I've created.
