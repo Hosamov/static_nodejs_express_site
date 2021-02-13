@@ -9,7 +9,7 @@ app.set('views', path.join(__dirname, 'views')); //folder with pug templates
 app.set('view engine', 'pug'); //set view engine to pug
 
 //setup static middleware to serve static files in the public folder
-app.use('/static', express.static('public')); 
+app.use('/static', express.static('public'));
 
 //function to handle error creation and logging
 function errorHandler(status, message) {
