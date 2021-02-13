@@ -59,6 +59,25 @@ a {
   text-decoration: none;
 }
 
+/* ERROR PAGE STYLES*/
+
+/* Added */
+.home-button {
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+
+/* Added */
+.home-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.error-container {
+  margin-left: 20px;
+}
+
 .wrapper {
   width: 100%;
   min-width: 320px;
