@@ -48,7 +48,7 @@
     {
       "id": 5,
       "project_name": "The Game of Life",
-      "description": "A version of John Conway's Game of Life in the browser. Includes ability to change the game board/grid in real-time and the abilities to randomize and clear the grid.",
+      "description": "A version of John Conway's Game of Life in the web browser. Includes ability to change the game board/grid in real-time and the abilities to randomize and clear the grid.",
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "http://projects.backyarddev.io/game_of_life/",
       "github_link": "https://github.com/Hosamov/game_of_life",
