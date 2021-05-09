@@ -7,7 +7,7 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/random_quote_generator/",
       "github_link": "https://github.com/Hosamov/fsjs-techdegree-project-1",
-      "image_urls": ["/static/images/quotes_thumbnail.PNG", "/static/images/quotes_large_1.png", "/static/images/quotes_large_2.png", "/static/images/quotes_large_3.png"]
+      "image_urls": ["/static/images/quotes_thumbnail.png", "/static/images/quotes_large_1.png", "/static/images/quotes_large_2.png", "/static/images/quotes_large_3.png"]
     },
     {
       "id": 1,
@@ -16,7 +16,7 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/data_pagination_filtering/",
       "github_link": "https://github.com/Hosamov/data-pagination-and-filtering",
-      "image_urls": ["/static/images/students_thumbnail.PNG", "/static/images/students_large_1.png", "/static/images/students_large_2.png", "/static/images/students_large_3.png"]
+      "image_urls": ["/static/images/students_thumbnail.data_pagination_filtering", "/static/images/students_large_1.png", "/static/images/students_large_2.png", "/static/images/students_large_3.png"]
     },
     {
       "id": 2,
@@ -25,7 +25,7 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "http://projects.backyarddev.io/interactive_form/",
       "github_link": "https://github.com/Hosamov/interactive-form",
-      "image_urls": ["/static/images/conf_form_thumbnail.PNG", "/static/images/conf_large_1.png", "/static/images/conf_large_2.png", "/static/images/conf_large_3.png"]
+      "image_urls": ["/static/images/conf_form_thumbnail.png", "/static/images/conf_large_1.png", "/static/images/conf_large_2.png", "/static/images/conf_large_3.png"]
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/oop_gameshow_app/",
       "github_link": "https://github.com/Hosamov/oop-gameshow-app",
-      "image_urls": ["/static/images/phrase_thumbnail.PNG", "/static/images/phrase_large_1.png", "/static/images/phrase_large_2.png", "/static/images/phrase_large_3.png"]
+      "image_urls": ["/static/images/phrase_thumbnail.png", "/static/images/phrase_large_1.png", "/static/images/phrase_large_2.png", "/static/images/phrase_large_3.png"]
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/startup_employee_directory/",
       "github_link": "https://github.com/Hosamov/public_api_requests",
-      "image_urls": ["/static/images/employee_dir_thumbnail.PNG", "/static/images/employee_dir_large_1.png","/static/images/employee_dir_large_2.png","/static/images/employee_dir_large_3.png"]
+      "image_urls": ["/static/images/employee_dir_thumbnail.png", "/static/images/employee_dir_large_1.png","/static/images/employee_dir_large_2.png","/static/images/employee_dir_large_3.png"]
     },
     {
       "id": 5,
@@ -52,7 +52,7 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "http://projects.backyarddev.io/game_of_life/",
       "github_link": "https://github.com/Hosamov/game_of_life",
-      "image_urls": ["/static/images/life_thumbnail.PNG", "/static/images/life_large_1.png","/static/images/life_large_2.png", "/static/images/life_large_3.png"]
+      "image_urls": ["/static/images/life_thumbnail.png", "/static/images/life_large_1.png","/static/images/life_large_2.png", "/static/images/life_large_3.png"]
     }
   ]
 }
