@@ -16,7 +16,7 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/data_pagination_filtering/",
       "github_link": "https://github.com/Hosamov/data-pagination-and-filtering",
-      "image_urls": ["/static/images/students_thumbnail.data_pagination_filtering.png", "/static/images/students_large_1.png", "/static/images/students_large_2.png", "/static/images/students_large_3.png"]
+      "image_urls": ["/static/images/students_thumbnail.png", "/static/images/students_large_1.png", "/static/images/students_large_2.png", "/static/images/students_large_3.png"]
     },
     {
       "id": 2,
