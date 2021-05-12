@@ -26,10 +26,13 @@ block content
         a.btn-link(href=`${project.github_link}` target = "_blank") GitHub Repo
 
     .project-img-box.box
-
-      img.project-img(src=`${project.image_urls[1]}`, alt='image 1')
-      img.project-img(src=`${project.image_urls[2]}`, alt='image 2')
-      img.project-img(src=`${project.image_urls[3]}`, alt='image 3')
+      
+      if project.image_urls[1]
+        img.project-img(src=`${project.image_urls[1]}`, alt='image 1')
+      if project.image_urls[2]
+        img.project-img(src=`${project.image_urls[2]}`, alt='image 2')
+      if project.image_urls[3]
+        img.project-img(src=`${project.image_urls[3]}`, alt='image 3')
 
     nav.nav
       a(href='/')

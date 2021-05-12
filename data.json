@@ -16,7 +16,6 @@
       "technologies": ["HTML","CSS","JavaScript"],
       "live_link": "https://projects.backyarddev.io/data_pagination_filtering/",
       "github_link": "https://github.com/Hosamov/data-pagination-and-filtering",
-      "image_urls": ["/static/images/students_thumbnail.data_pagination_filtering.png", "/static/images/students_large_1.png", "/static/images/students_large_2.png", "/static/images/students_large_3.png"],
       "image_urls": ["/static/images/students_thumbnail.png", "/static/images/students_large_1.png", "/static/images/students_large_2.png", "/static/images/students_large_3.png"]
     },
     {
@@ -54,6 +53,15 @@
       "live_link": "http://projects.backyarddev.io/game_of_life/",
       "github_link": "https://github.com/Hosamov/game_of_life",
       "image_urls": ["/static/images/life_thumbnail.png", "/static/images/life_large_1.PNG","/static/images/life_large_2.PNG", "/static/images/life_large_3.png"]
+    },
+    {
+      "id": 6,
+      "project_name": "Node.js Express Portfolio Web App",
+      "description": "A portfolio web app I built using Node.js and Express to feature some of the projects i'm most proud of.",
+      "technologies": ["HTML","CSS","JavaScript", "Node.js", "Express.js"],
+      "live_link": "https://www.mattcoaledev.com",
+      "github_link": "https://github.com/Hosamov/static_nodejs_express_site",
+      "image_urls": ["/static/images/new/nodejs_express_portfolio_thumbnail2.png", "/static/images/new/nodejs_express_portfolio1.png"]
     }
   ]
 }
