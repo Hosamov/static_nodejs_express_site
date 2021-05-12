@@ -53,6 +53,6 @@
       "live_link": "http://projects.backyarddev.io/game_of_life/",
       "github_link": "https://github.com/Hosamov/game_of_life",
       "image_urls": ["/static/images/life_thumbnail.png", "/static/images/life_large_1.PNG","/static/images/life_large_2.PNG", "/static/images/life_large_3.png"]
-    }
+    },
   ]
 }
