@@ -56,12 +56,36 @@
     },
     {
       "id": 6,
-      "project_name": "Node.js Express Portfolio Web App",
+      "project_name": "Node.js & Express Portfolio App",
       "description": "A portfolio web app I built using Node.js and Express to feature some of the projects i'm most proud of.",
       "technologies": ["HTML","CSS","JavaScript", "Node.js", "Express.js"],
       "live_link": "https://www.mattcoaledev.com",
       "github_link": "https://github.com/Hosamov/static_nodejs_express_site",
       "image_urls": ["/static/images/new/nodejs_express_portfolio_thumbnail2.png", "/static/images/new/nodejs_express_portfolio1.png"]
+    },
+    {
+      "id": 7,
+      "project_name": "React Gallery App",
+      "description": "An app created using React that uses the Flickr API to fetch and display images based on user search criteria. To try it out, click the 'GitHub Repo' link to the right (Note: follow instructions included in README.md for instructions on adding your own Flickr API key).",
+      "technologies": ["HTML","CSS","JavaScript", "Node.js", "React", "Pug"],
+      "github_link": "https://github.com/Hosamov/react_gallery_app",
+      "image_urls": ["/static/images/new/react_gallery_app_thumbnail2.png", "/static/images/new/react_gallery_app1.png", "/static/images/new/react_gallery_app2.png", "/static/images/new/react_gallery_app3.png"]
+    },
+    {
+      "id": 8,
+      "project_name": "SQL Library Manager",
+      "description": "An app created using Sequelize and SQLite, which allows the user to create, read, update, and delete (CRUD) book and author data for a personal library collection. To try it out, click the 'GitHub Repo' link to the right.",
+      "technologies": ["HTML","CSS","JavaScript", "Node.js", "Sequelize", "Pug"],
+      "github_link": "https://github.com/Hosamov/SQL_Library_Manager",
+      "image_urls": ["/static/images/new/library_manager_thumbnail.png", "/static/images/new/library_manager1.png", "/static/images/new/library_manager2.png", "/static/images/new/library_manager3.png"]
+    },
+    {
+      "id": 9,
+      "project_name": "Full Stack Courses App with React and REST API",
+      "description": "A full stack application using React and a REST API that allows the the user to signup, login, and create, view, edit, and/or delete courses based on user authorization. To try it out, click the 'GitHub Repo' link to the right (Note: view README.md for installation instructions).",
+      "technologies": ["HTML","CSS","JavaScript", "Node.js", "Express.js", "Sequelize", "React"],
+      "github_link": "https://github.com/Hosamov/fullstack_react_rest_api",
+      "image_urls": ["/static/images/new/fs_react_restapi_thumbnail.png", "/static/images/new/fs_react_restapi1.png", "/static/images/new/fs_react_restapi2.png", "/static/images/new/fs_react_restapi3.png"]
     }
   ]
 }
